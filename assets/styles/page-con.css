@@ -1,0 +1,24 @@
+/* page show */
+.page-show {
+    display: block;
+    animation: show-anim 1s ease-in-out;
+}
+
+/* page hide */
+.page-out {
+    display: none;
+}
+
+/* animation */
+/* show */
+@keyframes show-anim {
+    0% {
+        opacity: 0;
+        /* transform: translateY(-100px); */
+    }
+    100% {
+        opacity: 1;
+        transform: matrix();
+        /* transform: translateY(0); */
+    }
+}
